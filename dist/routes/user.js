@@ -7,6 +7,6 @@ router.get("/", user_1.getUsers);
 router.get("/:id", user_1.getUser);
 router.post("/", user_1.postUser);
 router.put("/:id", user_1.putUser);
-router.get("/:id", user_1.deletetUser);
+router.delete("/:id", user_1.deleteUser);
 exports.default = router;
 //# sourceMappingURL=user.js.map
